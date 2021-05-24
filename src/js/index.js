@@ -224,6 +224,21 @@ window.NETWORKS = {
         "https://viewblock.io/thundercore"
     ],
   },
+  EWT: {
+    "chainId": "0xf6",
+    "chainName": "Energy Web Chain",
+    "nativeCurrency": {
+      "name": "energy-web-token",
+      "symbol": "EWT",
+      "decimals": 18
+    },
+    "rpcUrls": [
+        "https://rpc.energyweb.org"
+    ],
+    "blockExplorerUrls": [
+        "https://explorer.energyweb.org"
+    ],
+  }
 }
 
 const infuraId = atob(window.ETHEREUM_NODE_URL).split('/').pop()

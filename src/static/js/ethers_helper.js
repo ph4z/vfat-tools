@@ -40,6 +40,9 @@ const pageNetwork = function() {
   if (network.toLowerCase() === 'thundercore') {
     return window.NETWORKS.THUNDERCORE
   }
+  if (network.toLowerCase() === 'ewt') {
+    return window.NETWORKS.EWT
+  }
 
   return window.NETWORKS.ETHEREUM
 }
@@ -1877,6 +1880,9 @@ function getErc20Prices(prices, pool, chain="eth") {
     case "fuse":
       poolUrl=`https://explorer.fuse.io/address/${pool.address}`;
       break;
+    case "ewt":
+      poolUrl=`https://explorer.energyweb.org/address/${pool.address}`;
+      break;
   }
   const name = `<a href='${poolUrl}' target='_blank'>${pool.symbol}</a>`;
   return {
@@ -2363,6 +2369,9 @@ async function printSynthetixPool(App, info, chain="eth", customURLs) {
         break;
       case "fuse":
         _print(`<a target="_blank" href="https://explorer.fuse.io/address/${info.stakingAddress}#code">FUSE Scan</a>`);
+        break;
+      case "ewt":
+        _print(`<a target="_blank" href="https://explorer.energyweb.org/address/${info.stakingAddress}/contracts">EWT Scan</a>`);
         break;
     }
     if (info.stakeTokenTicker != "ETH") {
