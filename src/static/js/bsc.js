@@ -282,7 +282,8 @@ const main = async() => {
       ["Cashcow             ", `<a href="cashcow"       >Various</a>`,"CCDI          ","https://cashcowswap.org"],
       ["Tiger Finance       ", `<a href="tiger_defi"    >Various</a>`,"TIG           ","https://www.tigerfinancedefi.com"],
       ["Tinville            ", `<a href="tinville"      >Various</a>`,"TINvS         ","https://farms.tinville.finance"],
-      ["Matisse             ", `<a href="matisse"       >Various</a>`,"Nu            ","https://app.matisse.finance"]
+      ["Matisse             ", `<a href="matisse"       >Various</a>`,"Nu            ","https://app.matisse.finance"],
+      ["Autoshark           ", `<a href="autoshark"     >Various</a>`,"Various       ","https://autoshark.finance"]
     ]
   }
   
