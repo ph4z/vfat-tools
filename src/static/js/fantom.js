@@ -115,6 +115,36 @@ const main = async() => {
         `<a href='paintswap'>Various</a>`,
         "BRUSH",
         "https://paintswap.finance"
+      ],
+      [
+        "Tomb",
+        `<a href='tomb'>Various</a>`,
+        "Various",
+        "https://tomb.finance"
+      ],
+      [
+        "Shadow",
+        `<a href='shadow'>Various</a>`,
+        "Various",
+        "https://shadowswap.app"
+      ],
+      [
+        "Borgswap",
+        `<a href='borgswap'>Various</a>`,
+        "KLING",
+        "https://klingftm.borgswap.exchange"
+      ],
+      [
+        "Opera",
+        `<a href='opera'>Various</a>`,
+        "OPERA",
+        "https://www.operaswap.finance"
+      ],
+      [
+        "Chad",
+        `<a href='chad'>Various</a>`,
+        "CHAD",
+        "N/A"
       ]
     ]
   }
