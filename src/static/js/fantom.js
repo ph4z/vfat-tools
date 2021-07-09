@@ -69,12 +69,6 @@ const main = async() => {
         "https://www.liquiddriver.finance"
       ],
       [
-        "Standard",
-        `<a href='standard'>Various</a>`,
-        "STRD",
-        "https://strd.finance"
-      ],
-      [
         "Mushrooms",
         `<a href='mushrooms'>Various</a>`,
         "MM",
@@ -145,6 +139,60 @@ const main = async() => {
         `<a href='chad'>Various</a>`,
         "CHAD",
         "N/A"
+      ],
+      [
+        "Guru",
+        `<a href='guru'>Various</a>`,
+        "ELITE",
+        "https://ftm.guru"
+      ],
+      [
+        "Rediant",
+        `<a href="rediant">Various</a>`,
+        "RDT",
+        "https://rediant.finance"
+      ],
+      [
+        "Mlnl",
+        `<a href="mlnl">Various</a>`,
+        "Various",
+        "https://milfinance.xyz"
+      ],
+      [
+        "Yorocoon",
+        `<a href="yorocoon">Various</a>`,
+        "CATNIP",
+        "https://yorocoon.com"
+      ],
+      [
+        "Balloon Farms",
+        `<a href='balloonfarms'>Various</a>`,
+        "BALLOON",
+        "https://www.fantomballoons.com"
+      ],
+      [
+        "Spoon",
+        `<a href='spoon'>Various</a>`,
+        "SPOON",
+        "https://app.spoon.finance"
+      ],
+      [
+        "Bullrun",
+        `<a href='bullrun'>Various</a>`,
+        "BULL",
+        "https://fantom.bullrun.finance"
+      ],
+      [
+        "Strangebrew",
+        `<a href='strangebrew'>Various</a>`,
+        "BEERMONEY",
+        "https://www.strangebrew.finance"
+      ],
+      [
+        "Uniron",
+        `<a href='uniron'>Various</a>`,
+        "UNIRON",
+        "https://www.uniron.finance"
       ]
     ]
   }
